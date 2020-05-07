@@ -1,0 +1,146 @@
+{
+    "add_basic_authentication": false,
+    "add_to_header": true,
+    "auth": "oauth2_user",
+    "authentication_url": "https://discordapp.com/api/oauth2/authorize",
+    "calls": {
+        "ACk": {
+            "doc_link": "https://discordapp.com/developers/docs/resources/us",
+            "initialized": true,
+            "method": "get",
+            "name": "Get My Discord Profile",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1546674110267x234339471215558660.plugin_api.ACk",
+            "types": "{\"plugin_api.ACk\":{\"caption\":\"Get My Discord Profile\",\"fields\":{\"_p_username\":{\"ret_value\":\"text\",\"caption\":\"username\",\"path\":[\"username\"]},\"_p_verified\":{\"ret_value\":\"boolean\",\"caption\":\"verified\",\"path\":[\"verified\"]},\"_p_locale\":{\"ret_value\":\"text\",\"caption\":\"locale\",\"path\":[\"locale\"]},\"_p_premium_type\":{\"ret_value\":\"number\",\"caption\":\"premium_type\",\"path\":[\"premium_type\"]},\"_p_mfa_enabled\":{\"ret_value\":\"boolean\",\"caption\":\"mfa_enabled\",\"path\":[\"mfa_enabled\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_flags\":{\"ret_value\":\"number\",\"caption\":\"flags\",\"path\":[\"flags\"]},\"_p_avatar\":{\"ret_value\":\"text\",\"caption\":\"avatar\",\"path\":[\"avatar\"]},\"_p_discriminator\":{\"ret_value\":\"text\",\"caption\":\"discriminator\",\"path\":[\"discriminator\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"path\":[\"email\"]}}}}",
+            "url": "https://discordapp.com/api/users/@me"
+        },
+        "ADf": {
+            "doc_link": "https://discordapp.com/developers/docs/resources/user#get-current-user-guilds",
+            "initialized": true,
+            "is_list": true,
+            "method": "get",
+            "name": "Get My Guilds",
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1546674110267x234339471215558660.plugin_api.ADf",
+            "types": "{\"plugin_api.ADf\":{\"caption\":\"Get My Guild\",\"fields\":{\"_p_owner\":{\"ret_value\":\"boolean\",\"caption\":\"owner\",\"path\":[\"owner\"]},\"_p_permissions\":{\"ret_value\":\"number\",\"caption\":\"permissions\",\"path\":[\"permissions\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"path\":[\"icon\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"path\":[\"name\"]}}}}",
+            "url": "https://discordapp.com/api/users/@me/guilds"
+        },
+        "ADn": {
+            "body": "{ \"username\":\"<username>\",\n  \"avatar\":\"<avatar>\",\n  \"embeds\": [{\n    \"title\": \"<title>\",\n    \"description\":\"<description>\",\n    \"author\":{\n      \"name\":\"<author_name>\",\"icon_url\":\"<icon_url>\"}\n  }]\n}",
+            "body_params": {
+                "AEF": {
+                    "key": "title",
+                    "private": true,
+                    "value": ""
+                },
+                "AEG": {
+                    "key": "description",
+                    "private": true,
+                    "value": ""
+                },
+                "AEH": {
+                    "key": "author_name",
+                    "private": true,
+                    "value": ""
+                },
+                "AEI": {
+                    "key": "icon_url",
+                    "private": true,
+                    "value": ""
+                },
+                "AEL": {
+                    "key": "username",
+                    "private": true,
+                    "value": ""
+                },
+                "AEM": {
+                    "key": "avatar",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "doc_link": "https://discordapp.com/developers/docs/resources/webhook",
+            "get_headers": false,
+            "headers": {
+                "AEK": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "Send Embed Webhook",
+            "publish_as": "action",
+            "rank": 2,
+            "ret_value": "api.1546674110267x234339471215558660.plugin_api.ADn",
+            "types": "{\"plugin_api.ADn\":{\"caption\":\"Send Embed Webhook\",\"fields\":{\"_p_headers.date\":{\"ret_value\":\"text\",\"caption\":\"headers date\",\"path\":[\"headers\",\"date\"]},\"_p_headers.content-type\":{\"ret_value\":\"text\",\"caption\":\"headers content-type\",\"path\":[\"headers\",\"content-type\"]},\"_p_headers.content-length\":{\"ret_value\":\"text\",\"caption\":\"headers content-length\",\"path\":[\"headers\",\"content-length\"]},\"_p_headers.connection\":{\"ret_value\":\"text\",\"caption\":\"headers connection\",\"path\":[\"headers\",\"connection\"]},\"_p_headers.set-cookie\":{\"ret_value\":\"list.text\",\"caption\":\"headers set-cookie\",\"path\":[\"headers\",\"set-cookie\"]},\"_p_headers.strict-transport-security\":{\"ret_value\":\"text\",\"caption\":\"headers strict-transport-security\",\"path\":[\"headers\",\"strict-transport-security\"]},\"_p_headers.x-ratelimit-limit\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-limit\",\"path\":[\"headers\",\"x-ratelimit-limit\"]},\"_p_headers.x-ratelimit-remaining\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-remaining\",\"path\":[\"headers\",\"x-ratelimit-remaining\"]},\"_p_headers.x-ratelimit-reset\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-reset\",\"path\":[\"headers\",\"x-ratelimit-reset\"]},\"_p_headers.via\":{\"ret_value\":\"text\",\"caption\":\"headers via\",\"path\":[\"headers\",\"via\"]},\"_p_headers.alt-svc\":{\"ret_value\":\"text\",\"caption\":\"headers alt-svc\",\"path\":[\"headers\",\"alt-svc\"]},\"_p_headers.expect-ct\":{\"ret_value\":\"text\",\"caption\":\"headers expect-ct\",\"path\":[\"headers\",\"expect-ct\"]},\"_p_headers.server\":{\"ret_value\":\"text\",\"caption\":\"headers server\",\"path\":[\"headers\",\"server\"]},\"_p_headers.cf-ray\":{\"ret_value\":\"text\",\"caption\":\"headers cf-ray\",\"path\":[\"headers\",\"cf-ray\"]}}}}",
+            "url": "[webhook.url]",
+            "url_params": {
+                "AEm": {
+                    "key": "webhook.url",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AEN": {
+            "body": "{\"content\":\"<content>\",\n\"username\":\"<username>\",\n\"avatar\":\"<avatar>\",\n\"file\":\"<file>\"}",
+            "body_params": {
+                "AEO": {
+                    "key": "content",
+                    "private": true,
+                    "value": ""
+                },
+                "AEP": {
+                    "key": "username",
+                    "private": true,
+                    "value": ""
+                },
+                "AEQ": {
+                    "key": "avatar",
+                    "private": true,
+                    "value": ""
+                },
+                "AER": {
+                    "key": "file",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "body_type": "json",
+            "get_headers": false,
+            "headers": {
+                "AET": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "Send Webhook",
+            "publish_as": "action",
+            "rank": 3,
+            "ret_value": "api.1546674110267x234339471215558660.plugin_api.AEN",
+            "types": "{\"plugin_api.AEN\":{\"caption\":\"Send Webhook\",\"fields\":{\"_p_headers.date\":{\"ret_value\":\"text\",\"caption\":\"headers date\",\"path\":[\"headers\",\"date\"]},\"_p_headers.content-type\":{\"ret_value\":\"text\",\"caption\":\"headers content-type\",\"path\":[\"headers\",\"content-type\"]},\"_p_headers.content-length\":{\"ret_value\":\"text\",\"caption\":\"headers content-length\",\"path\":[\"headers\",\"content-length\"]},\"_p_headers.connection\":{\"ret_value\":\"text\",\"caption\":\"headers connection\",\"path\":[\"headers\",\"connection\"]},\"_p_headers.set-cookie\":{\"ret_value\":\"list.text\",\"caption\":\"headers set-cookie\",\"path\":[\"headers\",\"set-cookie\"]},\"_p_headers.strict-transport-security\":{\"ret_value\":\"text\",\"caption\":\"headers strict-transport-security\",\"path\":[\"headers\",\"strict-transport-security\"]},\"_p_headers.x-ratelimit-limit\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-limit\",\"path\":[\"headers\",\"x-ratelimit-limit\"]},\"_p_headers.x-ratelimit-remaining\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-remaining\",\"path\":[\"headers\",\"x-ratelimit-remaining\"]},\"_p_headers.x-ratelimit-reset\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-reset\",\"path\":[\"headers\",\"x-ratelimit-reset\"]},\"_p_headers.via\":{\"ret_value\":\"text\",\"caption\":\"headers via\",\"path\":[\"headers\",\"via\"]},\"_p_headers.alt-svc\":{\"ret_value\":\"text\",\"caption\":\"headers alt-svc\",\"path\":[\"headers\",\"alt-svc\"]},\"_p_headers.expect-ct\":{\"ret_value\":\"text\",\"caption\":\"headers expect-ct\",\"path\":[\"headers\",\"expect-ct\"]},\"_p_headers.server\":{\"ret_value\":\"text\",\"caption\":\"headers server\",\"path\":[\"headers\",\"server\"]},\"_p_headers.cf-ray\":{\"ret_value\":\"text\",\"caption\":\"headers cf-ray\",\"path\":[\"headers\",\"cf-ray\"]}}}}",
+            "url": "[webhook.url]",
+            "url_params": {
+                "AES": {
+                    "key": "webhook.url",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        }
+    },
+    "generate_token_from_code_uri": "https://discordapp.com/api/oauth2/token",
+    "header_key": "Authorization: Bearer",
+    "human": "Discordapp",
+    "oauth_user_data_call": "https://discordapp.com/api/users/@me",
+    "scope": "email identify guilds"
+}
