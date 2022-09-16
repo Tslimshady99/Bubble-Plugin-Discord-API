@@ -1,5 +1,6 @@
 {
     "dependencies": {
-        "use_jquery": true
+        "plugin_api_version": "2",
+        "use_jquery": false
     }
 }

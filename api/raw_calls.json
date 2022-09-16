@@ -12,7 +12,8 @@
             "publish_as": "data",
             "rank": 0,
             "ret_value": "api.1546674110267x234339471215558660.plugin_api.ACk",
-            "types": "{\"plugin_api.ACk\":{\"caption\":\"Get My Discord Profile\",\"fields\":{\"_p_username\":{\"ret_value\":\"text\",\"caption\":\"username\",\"path\":[\"username\"]},\"_p_verified\":{\"ret_value\":\"boolean\",\"caption\":\"verified\",\"path\":[\"verified\"]},\"_p_locale\":{\"ret_value\":\"text\",\"caption\":\"locale\",\"path\":[\"locale\"]},\"_p_premium_type\":{\"ret_value\":\"number\",\"caption\":\"premium_type\",\"path\":[\"premium_type\"]},\"_p_mfa_enabled\":{\"ret_value\":\"boolean\",\"caption\":\"mfa_enabled\",\"path\":[\"mfa_enabled\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_flags\":{\"ret_value\":\"number\",\"caption\":\"flags\",\"path\":[\"flags\"]},\"_p_avatar\":{\"ret_value\":\"text\",\"caption\":\"avatar\",\"path\":[\"avatar\"]},\"_p_discriminator\":{\"ret_value\":\"text\",\"caption\":\"discriminator\",\"path\":[\"discriminator\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"path\":[\"email\"]}}}}",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.ACk\":{\"caption\":\"Get My Discord Profile\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"166292704462897154\",\"path\":[\"id\"]},\"_p_username\":{\"ret_value\":\"text\",\"caption\":\"username\",\"sample_value\":\"sschadboat\",\"path\":[\"username\"]},\"_p_avatar\":{\"ret_value\":\"text\",\"caption\":\"avatar\",\"sample_value\":\"5e14e1477c79fc32024b78d9caec165a\",\"path\":[\"avatar\"]},\"_p_avatar_decoration\":{\"ret_value\":\"text\",\"caption\":\"avatar_decoration\",\"sample_value\":null,\"path\":[\"avatar_decoration\"]},\"_p_discriminator\":{\"ret_value\":\"text\",\"caption\":\"discriminator\",\"sample_value\":\"0001\",\"path\":[\"discriminator\"]},\"_p_public_flags\":{\"ret_value\":\"number\",\"caption\":\"public_flags\",\"sample_value\":640,\"path\":[\"public_flags\"]},\"_p_flags\":{\"ret_value\":\"number\",\"caption\":\"flags\",\"sample_value\":640,\"path\":[\"flags\"]},\"_p_banner\":{\"ret_value\":\"text\",\"caption\":\"banner\",\"sample_value\":\"a336034f178933d6575884881748dac4\",\"path\":[\"banner\"]},\"_p_banner_color\":{\"ret_value\":\"text\",\"caption\":\"banner_color\",\"sample_value\":\"#0090ff\",\"path\":[\"banner_color\"]},\"_p_accent_color\":{\"ret_value\":\"number\",\"caption\":\"accent_color\",\"sample_value\":37119,\"path\":[\"accent_color\"]},\"_p_locale\":{\"ret_value\":\"text\",\"caption\":\"locale\",\"sample_value\":\"en-US\",\"path\":[\"locale\"]},\"_p_mfa_enabled\":{\"ret_value\":\"boolean\",\"caption\":\"mfa_enabled\",\"sample_value\":true,\"path\":[\"mfa_enabled\"]},\"_p_premium_type\":{\"ret_value\":\"number\",\"caption\":\"premium_type\",\"sample_value\":2,\"path\":[\"premium_type\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"sample_value\":\"tslimshady99@hotmail.com\",\"path\":[\"email\"]},\"_p_verified\":{\"ret_value\":\"boolean\",\"caption\":\"verified\",\"sample_value\":true,\"path\":[\"verified\"]}}}}",
             "url": "https://discordapp.com/api/users/@me"
         },
         "ADf": {
@@ -24,11 +25,12 @@
             "publish_as": "data",
             "rank": 1,
             "ret_value": "api.1546674110267x234339471215558660.plugin_api.ADf",
-            "types": "{\"plugin_api.ADf\":{\"caption\":\"Get My Guild\",\"fields\":{\"_p_owner\":{\"ret_value\":\"boolean\",\"caption\":\"owner\",\"path\":[\"owner\"]},\"_p_permissions\":{\"ret_value\":\"number\",\"caption\":\"permissions\",\"path\":[\"permissions\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"path\":[\"icon\"]},\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"path\":[\"name\"]}}}}",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.ADf\":{\"caption\":\"Get My Guild\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"192358910387159041\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Cfx.re Project Hub\",\"path\":[\"name\"]},\"_p_icon\":{\"ret_value\":\"text\",\"caption\":\"icon\",\"sample_value\":\"7e29d892adb4c55a4a7861984b643e7e\",\"path\":[\"icon\"]},\"_p_owner\":{\"ret_value\":\"boolean\",\"caption\":\"owner\",\"sample_value\":false,\"path\":[\"owner\"]},\"_p_permissions\":{\"ret_value\":\"number\",\"caption\":\"permissions\",\"sample_value\":35720256,\"path\":[\"permissions\"]},\"_p_features\":{\"ret_value\":\"list.text\",\"caption\":\"features\",\"sample_value\":\"BANNER\",\"path\":[\"features\"]},\"_p_permissions_new\":{\"ret_value\":\"text\",\"caption\":\"permissions_new\",\"sample_value\":\"35720256\",\"path\":[\"permissions_new\"]}}}}",
             "url": "https://discordapp.com/api/users/@me/guilds"
         },
         "ADn": {
-            "body": "{ \"username\":\"<username>\",\n  \"avatar\":\"<avatar>\",\n  \"embeds\": [{\n    \"title\": \"<title>\",\n    \"description\":\"<description>\",\n    \"author\":{\n      \"name\":\"<author_name>\",\"icon_url\":\"<icon_url>\"}\n  }]\n}",
+            "body": "{ \"username\":\"<username>\",\n  \"avatar\":\"<avatar>\",\n  \"embeds\": [{\n    \"color\":\"<color>\",\n    \"title\": \"<title>\",\n    \"description\":\"<description>\",\n    \"author\":{\n      \"name\":\"<author_name>\",\"icon_url\":\"<icon_url>\"}\n  }]\n}",
             "body_params": {
                 "AEF": {
                     "key": "title",
@@ -59,8 +61,14 @@
                     "key": "avatar",
                     "private": true,
                     "value": ""
+                },
+                "AHw": {
+                    "key": "color",
+                    "private": true,
+                    "value": ""
                 }
             },
+            "data_type": "empty",
             "doc_link": "https://discordapp.com/developers/docs/resources/webhook",
             "get_headers": false,
             "headers": {
@@ -75,8 +83,9 @@
             "method": "post",
             "name": "Send Embed Webhook",
             "publish_as": "action",
-            "rank": 2,
+            "rank": 3,
             "ret_value": "api.1546674110267x234339471215558660.plugin_api.ADn",
+            "should_reinitialize": true,
             "types": "{\"plugin_api.ADn\":{\"caption\":\"Send Embed Webhook\",\"fields\":{\"_p_headers.date\":{\"ret_value\":\"text\",\"caption\":\"headers date\",\"path\":[\"headers\",\"date\"]},\"_p_headers.content-type\":{\"ret_value\":\"text\",\"caption\":\"headers content-type\",\"path\":[\"headers\",\"content-type\"]},\"_p_headers.content-length\":{\"ret_value\":\"text\",\"caption\":\"headers content-length\",\"path\":[\"headers\",\"content-length\"]},\"_p_headers.connection\":{\"ret_value\":\"text\",\"caption\":\"headers connection\",\"path\":[\"headers\",\"connection\"]},\"_p_headers.set-cookie\":{\"ret_value\":\"list.text\",\"caption\":\"headers set-cookie\",\"path\":[\"headers\",\"set-cookie\"]},\"_p_headers.strict-transport-security\":{\"ret_value\":\"text\",\"caption\":\"headers strict-transport-security\",\"path\":[\"headers\",\"strict-transport-security\"]},\"_p_headers.x-ratelimit-limit\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-limit\",\"path\":[\"headers\",\"x-ratelimit-limit\"]},\"_p_headers.x-ratelimit-remaining\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-remaining\",\"path\":[\"headers\",\"x-ratelimit-remaining\"]},\"_p_headers.x-ratelimit-reset\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-reset\",\"path\":[\"headers\",\"x-ratelimit-reset\"]},\"_p_headers.via\":{\"ret_value\":\"text\",\"caption\":\"headers via\",\"path\":[\"headers\",\"via\"]},\"_p_headers.alt-svc\":{\"ret_value\":\"text\",\"caption\":\"headers alt-svc\",\"path\":[\"headers\",\"alt-svc\"]},\"_p_headers.expect-ct\":{\"ret_value\":\"text\",\"caption\":\"headers expect-ct\",\"path\":[\"headers\",\"expect-ct\"]},\"_p_headers.server\":{\"ret_value\":\"text\",\"caption\":\"headers server\",\"path\":[\"headers\",\"server\"]},\"_p_headers.cf-ray\":{\"ret_value\":\"text\",\"caption\":\"headers cf-ray\",\"path\":[\"headers\",\"cf-ray\"]}}}}",
             "url": "[webhook.url]",
             "url_params": {
@@ -88,31 +97,26 @@
             }
         },
         "AEN": {
-            "body": "{\"content\":\"<content>\",\n\"username\":\"<username>\",\n\"avatar\":\"<avatar>\",\n\"file\":\"<file>\"}",
+            "body": "{\n\"content\":\"<content>\",\n\"username\":\"<username>\",\n\"avatar\":\"<avatar>\"\n}",
             "body_params": {
                 "AEO": {
                     "key": "content",
                     "private": true,
-                    "value": ""
+                    "value": "This is a test"
                 },
                 "AEP": {
                     "key": "username",
                     "private": true,
-                    "value": ""
+                    "value": "Test"
                 },
                 "AEQ": {
                     "key": "avatar",
                     "private": true,
-                    "value": ""
-                },
-                "AER": {
-                    "key": "file",
-                    "private": true,
-                    "value": ""
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
                 }
             },
             "body_type": "json",
-            "get_headers": false,
+            "get_headers": true,
             "headers": {
                 "AET": {
                     "key": "Content-Type",
@@ -121,16 +125,365 @@
                     "visibility": "hidden"
                 }
             },
-            "initialized": true,
+            "initialized": false,
             "method": "post",
             "name": "Send Webhook",
             "publish_as": "action",
-            "rank": 3,
+            "rank": 2,
             "ret_value": "api.1546674110267x234339471215558660.plugin_api.AEN",
+            "should_reinitialize": true,
             "types": "{\"plugin_api.AEN\":{\"caption\":\"Send Webhook\",\"fields\":{\"_p_headers.date\":{\"ret_value\":\"text\",\"caption\":\"headers date\",\"path\":[\"headers\",\"date\"]},\"_p_headers.content-type\":{\"ret_value\":\"text\",\"caption\":\"headers content-type\",\"path\":[\"headers\",\"content-type\"]},\"_p_headers.content-length\":{\"ret_value\":\"text\",\"caption\":\"headers content-length\",\"path\":[\"headers\",\"content-length\"]},\"_p_headers.connection\":{\"ret_value\":\"text\",\"caption\":\"headers connection\",\"path\":[\"headers\",\"connection\"]},\"_p_headers.set-cookie\":{\"ret_value\":\"list.text\",\"caption\":\"headers set-cookie\",\"path\":[\"headers\",\"set-cookie\"]},\"_p_headers.strict-transport-security\":{\"ret_value\":\"text\",\"caption\":\"headers strict-transport-security\",\"path\":[\"headers\",\"strict-transport-security\"]},\"_p_headers.x-ratelimit-limit\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-limit\",\"path\":[\"headers\",\"x-ratelimit-limit\"]},\"_p_headers.x-ratelimit-remaining\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-remaining\",\"path\":[\"headers\",\"x-ratelimit-remaining\"]},\"_p_headers.x-ratelimit-reset\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-reset\",\"path\":[\"headers\",\"x-ratelimit-reset\"]},\"_p_headers.via\":{\"ret_value\":\"text\",\"caption\":\"headers via\",\"path\":[\"headers\",\"via\"]},\"_p_headers.alt-svc\":{\"ret_value\":\"text\",\"caption\":\"headers alt-svc\",\"path\":[\"headers\",\"alt-svc\"]},\"_p_headers.expect-ct\":{\"ret_value\":\"text\",\"caption\":\"headers expect-ct\",\"path\":[\"headers\",\"expect-ct\"]},\"_p_headers.server\":{\"ret_value\":\"text\",\"caption\":\"headers server\",\"path\":[\"headers\",\"server\"]},\"_p_headers.cf-ray\":{\"ret_value\":\"text\",\"caption\":\"headers cf-ray\",\"path\":[\"headers\",\"cf-ray\"]}}}}",
             "url": "[webhook.url]",
             "url_params": {
                 "AES": {
+                    "key": "webhook.url",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AHa": {
+            "0": "A",
+            "1": "H",
+            "2": "Z",
+            "body": "{\n  \"username\": \"<username>\",\n  \"avatar_url\": \"<avatar_url>\",\n  \"embeds\": [\n    {\n      \"color\":\"<color>\",\n      \"author\": {\n        \"name\": \"<author_name>\",\n        \"url\": \"<author_url>\",\n        \"icon_url\": \"<author_icon_url>\"\n      },\n      \"title\": \"<title>\",\n      \"url\": \"<url>\",\n      \"description\": \"<description>\",\n      \"fields\": [\n        {\n          \"name\": \"<field_name_one>\",\n          \"value\": \"<field_value_one>\",\n          \"inline\": true\n        },\n        {\n          \"name\": \"<field_name_two>\",\n          \"value\": \"<field_value_two>\",\n          \"inline\": true\n        },\n        {\n          \"name\": \"<field_name_three>\",\n          \"value\": \"<field_value_three>\"\n        }],\n      \"thumbnail\": {\n        \"url\": \"<thumbnail_url>\"\n      },\n      \"footer\": {\n        \"text\": \"<footer_text>\",\n        \"icon_url\": \"<footer_icon_url>\"\n      }\n    }\n  ]\n}",
+            "body_params": {
+                "AEF": {
+                    "key": "title",
+                    "private": true,
+                    "value": "title"
+                },
+                "AEG": {
+                    "key": "description",
+                    "private": true,
+                    "value": "description"
+                },
+                "AEH": {
+                    "key": "author_name",
+                    "private": true,
+                    "value": "author name"
+                },
+                "AEL": {
+                    "key": "username",
+                    "private": true,
+                    "value": "username"
+                },
+                "AHb": {
+                    "key": "avatar_url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHc": {
+                    "key": "author_url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHd": {
+                    "key": "author_icon_url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHe": {
+                    "key": "url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHf": {
+                    "key": "field_name_one",
+                    "private": true,
+                    "value": "name"
+                },
+                "AHg": {
+                    "key": "field_value_one",
+                    "private": true,
+                    "value": "value"
+                },
+                "AHh": {
+                    "key": "field_name_two",
+                    "private": true,
+                    "value": "name2"
+                },
+                "AHi": {
+                    "key": "field_value_two",
+                    "private": true,
+                    "value": "value2"
+                },
+                "AHj": {
+                    "key": "field_name_three",
+                    "private": true,
+                    "value": "name3"
+                },
+                "AHk": {
+                    "key": "field_value_three",
+                    "private": true,
+                    "value": "value3"
+                },
+                "AHl": {
+                    "key": "thumbnail_url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHm": {
+                    "key": "footer_text",
+                    "private": true,
+                    "value": "footer text"
+                },
+                "AHn": {
+                    "key": "footer_icon_url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHu": {
+                    "key": "color",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "data_type": "empty",
+            "doc_link": "https://discordapp.com/developers/docs/resources/webhook",
+            "get_headers": false,
+            "headers": {
+                "AEK": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "Send Embed Webhook+ 3 Fields",
+            "publish_as": "action",
+            "rank": 5,
+            "ret_value": "api.1546674110267x234339471215558660.plugin_api.AHZ",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AHZ\":{\"caption\":\"Send Embed Webhook\",\"fields\":{\"_p_headers.date\":{\"ret_value\":\"text\",\"caption\":\"headers date\",\"path\":[\"headers\",\"date\"]},\"_p_headers.content-type\":{\"ret_value\":\"text\",\"caption\":\"headers content-type\",\"path\":[\"headers\",\"content-type\"]},\"_p_headers.content-length\":{\"ret_value\":\"text\",\"caption\":\"headers content-length\",\"path\":[\"headers\",\"content-length\"]},\"_p_headers.connection\":{\"ret_value\":\"text\",\"caption\":\"headers connection\",\"path\":[\"headers\",\"connection\"]},\"_p_headers.set-cookie\":{\"ret_value\":\"list.text\",\"caption\":\"headers set-cookie\",\"path\":[\"headers\",\"set-cookie\"]},\"_p_headers.strict-transport-security\":{\"ret_value\":\"text\",\"caption\":\"headers strict-transport-security\",\"path\":[\"headers\",\"strict-transport-security\"]},\"_p_headers.x-ratelimit-limit\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-limit\",\"path\":[\"headers\",\"x-ratelimit-limit\"]},\"_p_headers.x-ratelimit-remaining\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-remaining\",\"path\":[\"headers\",\"x-ratelimit-remaining\"]},\"_p_headers.x-ratelimit-reset\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-reset\",\"path\":[\"headers\",\"x-ratelimit-reset\"]},\"_p_headers.via\":{\"ret_value\":\"text\",\"caption\":\"headers via\",\"path\":[\"headers\",\"via\"]},\"_p_headers.alt-svc\":{\"ret_value\":\"text\",\"caption\":\"headers alt-svc\",\"path\":[\"headers\",\"alt-svc\"]},\"_p_headers.expect-ct\":{\"ret_value\":\"text\",\"caption\":\"headers expect-ct\",\"path\":[\"headers\",\"expect-ct\"]},\"_p_headers.server\":{\"ret_value\":\"text\",\"caption\":\"headers server\",\"path\":[\"headers\",\"server\"]},\"_p_headers.cf-ray\":{\"ret_value\":\"text\",\"caption\":\"headers cf-ray\",\"path\":[\"headers\",\"cf-ray\"]}}}}",
+            "url": "[webhook.url]",
+            "url_params": {
+                "AEm": {
+                    "key": "webhook.url",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AHp": {
+            "0": "A",
+            "1": "H",
+            "2": "o",
+            "body": "{\n  \"username\": \"<username>\",\n  \"avatar_url\": \"<avatar_url>\",\n  \"embeds\": [\n    {\n      \"color\":\"<color>\",\n      \"author\": {\n        \"name\": \"<author_name>\",\n        \"url\": \"<author_url>\",\n        \"icon_url\": \"<author_icon_url>\"\n      },\n      \"title\": \"<title>\",\n      \"url\": \"<url>\",\n      \"description\": \"<description>\",\n      \"fields\": [\n        {\n          \"name\": \"<field_name_one>\",\n          \"value\": \"<field_value_one>\",\n          \"inline\": true\n        }],\n      \"thumbnail\": {\n        \"url\": \"<thumbnail_url>\"\n      },\n      \"footer\": {\n        \"text\": \"<footer_text>\",\n        \"icon_url\": \"<footer_icon_url>\"\n      }\n    }\n  ]\n}",
+            "body_params": {
+                "AEF": {
+                    "key": "title",
+                    "private": true,
+                    "value": "title"
+                },
+                "AEG": {
+                    "key": "description",
+                    "private": true,
+                    "value": "description"
+                },
+                "AEH": {
+                    "key": "author_name",
+                    "private": true,
+                    "value": "author name"
+                },
+                "AEL": {
+                    "key": "username",
+                    "private": true,
+                    "value": "username"
+                },
+                "AHb": {
+                    "key": "avatar_url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHc": {
+                    "key": "author_url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHd": {
+                    "key": "author_icon_url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHe": {
+                    "key": "url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHf": {
+                    "key": "field_name_one",
+                    "private": true,
+                    "value": "name"
+                },
+                "AHg": {
+                    "key": "field_value_one",
+                    "private": true,
+                    "value": "value"
+                },
+                "AHl": {
+                    "key": "thumbnail_url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHm": {
+                    "key": "footer_text",
+                    "private": true,
+                    "value": "footer text"
+                },
+                "AHn": {
+                    "doc": "",
+                    "key": "footer_icon_url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHv": {
+                    "key": "color",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "data_type": "empty",
+            "doc_link": "https://discordapp.com/developers/docs/resources/webhook",
+            "get_headers": false,
+            "headers": {
+                "AEK": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "Send Embed Webhook+ 1 Field",
+            "no_types": true,
+            "publish_as": "action",
+            "rank": 4,
+            "ret_value": "api.1546674110267x234339471215558660.plugin_api.AHZ",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AHZ\":{\"caption\":\"Send Embed Webhook\",\"fields\":{\"_p_headers.date\":{\"ret_value\":\"text\",\"caption\":\"headers date\",\"path\":[\"headers\",\"date\"]},\"_p_headers.content-type\":{\"ret_value\":\"text\",\"caption\":\"headers content-type\",\"path\":[\"headers\",\"content-type\"]},\"_p_headers.content-length\":{\"ret_value\":\"text\",\"caption\":\"headers content-length\",\"path\":[\"headers\",\"content-length\"]},\"_p_headers.connection\":{\"ret_value\":\"text\",\"caption\":\"headers connection\",\"path\":[\"headers\",\"connection\"]},\"_p_headers.set-cookie\":{\"ret_value\":\"list.text\",\"caption\":\"headers set-cookie\",\"path\":[\"headers\",\"set-cookie\"]},\"_p_headers.strict-transport-security\":{\"ret_value\":\"text\",\"caption\":\"headers strict-transport-security\",\"path\":[\"headers\",\"strict-transport-security\"]},\"_p_headers.x-ratelimit-limit\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-limit\",\"path\":[\"headers\",\"x-ratelimit-limit\"]},\"_p_headers.x-ratelimit-remaining\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-remaining\",\"path\":[\"headers\",\"x-ratelimit-remaining\"]},\"_p_headers.x-ratelimit-reset\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-reset\",\"path\":[\"headers\",\"x-ratelimit-reset\"]},\"_p_headers.via\":{\"ret_value\":\"text\",\"caption\":\"headers via\",\"path\":[\"headers\",\"via\"]},\"_p_headers.alt-svc\":{\"ret_value\":\"text\",\"caption\":\"headers alt-svc\",\"path\":[\"headers\",\"alt-svc\"]},\"_p_headers.expect-ct\":{\"ret_value\":\"text\",\"caption\":\"headers expect-ct\",\"path\":[\"headers\",\"expect-ct\"]},\"_p_headers.server\":{\"ret_value\":\"text\",\"caption\":\"headers server\",\"path\":[\"headers\",\"server\"]},\"_p_headers.cf-ray\":{\"ret_value\":\"text\",\"caption\":\"headers cf-ray\",\"path\":[\"headers\",\"cf-ray\"]}}}}",
+            "url": "[webhook.url]",
+            "url_params": {
+                "AEm": {
+                    "key": "webhook.url",
+                    "private": true,
+                    "value": "https://discordapp.com/api/webhooks/742218725784158290/05Lezdr5BdBbD22YOlMuN6mLqu4buTZv2oZ9s7pk3gIR7iVnfbBJjHyOuwwv1aWsJ7Qp"
+                }
+            }
+        },
+        "AHr": {
+            "0": "A",
+            "1": "H",
+            "2": "q",
+            "body": "{\n  \"username\": \"<username>\",\n  \"avatar_url\": \"<avatar_url>\",\n  \"embeds\": [\n    {\n      \"color\":\"<color>\",\n      \"author\": {\n        \"name\": \"<author_name>\",\n        \"url\": \"<author_url>\",\n        \"icon_url\": \"<author_icon_url>\"\n      },\n      \"title\": \"<title>\",\n      \"url\": \"<url>\",\n      \"description\": \"<description>\",\n      \"fields\": [\n        {\n          \"name\": \"<field_name_one>\",\n          \"value\": \"<field_value_one>\",\n          \"inline\": true\n        },\n        {\n          \"name\": \"<field_name_two>\",\n          \"value\": \"<field_value_two>\",\n          \"inline\": true\n        }],\n      \"thumbnail\": {\n        \"url\": \"<thumbnail_url>\"\n      },\n      \"footer\": {\n        \"text\": \"<footer_text>\",\n        \"icon_url\": \"<footer_icon_url>\"\n      }\n    }\n  ]\n}",
+            "body_params": {
+                "AEF": {
+                    "key": "title",
+                    "private": true,
+                    "value": "title"
+                },
+                "AEG": {
+                    "key": "description",
+                    "private": true,
+                    "value": "description"
+                },
+                "AEL": {
+                    "key": "username",
+                    "private": true,
+                    "value": "username"
+                },
+                "AHb": {
+                    "key": "avatar_url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHc": {
+                    "key": "author_url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHd": {
+                    "key": "author_icon_url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHe": {
+                    "key": "url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHf": {
+                    "key": "field_name_one",
+                    "private": true,
+                    "value": "name"
+                },
+                "AHg": {
+                    "key": "field_value_one",
+                    "private": true,
+                    "value": "value"
+                },
+                "AHh": {
+                    "key": "field_name_two",
+                    "private": true,
+                    "value": "name2"
+                },
+                "AHi": {
+                    "key": "field_value_two",
+                    "private": true,
+                    "value": "value2"
+                },
+                "AHl": {
+                    "key": "thumbnail_url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHm": {
+                    "key": "footer_text",
+                    "private": true,
+                    "value": "footer text"
+                },
+                "AHn": {
+                    "key": "footer_icon_url",
+                    "private": true,
+                    "value": "https://images-ext-1.discordapp.net/external/WLyzeBjNAL2HRp54Slfm98V8hmVetT3U1a_UNh1mvmU/https/i.imgur.com/fKL31aD.jpg"
+                },
+                "AHs": {
+                    "doc": "",
+                    "key": "color",
+                    "private": true,
+                    "value": ""
+                },
+                "AHt": {
+                    "key": "author_name",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "data_type": "empty",
+            "doc_link": "https://discordapp.com/developers/docs/resources/webhook",
+            "get_headers": false,
+            "headers": {
+                "AEK": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "Send Embed Webhook+ 2 Fields",
+            "publish_as": "action",
+            "rank": 6,
+            "ret_value": "api.1546674110267x234339471215558660.plugin_api.AHZ",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AHZ\":{\"caption\":\"Send Embed Webhook\",\"fields\":{\"_p_headers.date\":{\"ret_value\":\"text\",\"caption\":\"headers date\",\"path\":[\"headers\",\"date\"]},\"_p_headers.content-type\":{\"ret_value\":\"text\",\"caption\":\"headers content-type\",\"path\":[\"headers\",\"content-type\"]},\"_p_headers.content-length\":{\"ret_value\":\"text\",\"caption\":\"headers content-length\",\"path\":[\"headers\",\"content-length\"]},\"_p_headers.connection\":{\"ret_value\":\"text\",\"caption\":\"headers connection\",\"path\":[\"headers\",\"connection\"]},\"_p_headers.set-cookie\":{\"ret_value\":\"list.text\",\"caption\":\"headers set-cookie\",\"path\":[\"headers\",\"set-cookie\"]},\"_p_headers.strict-transport-security\":{\"ret_value\":\"text\",\"caption\":\"headers strict-transport-security\",\"path\":[\"headers\",\"strict-transport-security\"]},\"_p_headers.x-ratelimit-limit\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-limit\",\"path\":[\"headers\",\"x-ratelimit-limit\"]},\"_p_headers.x-ratelimit-remaining\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-remaining\",\"path\":[\"headers\",\"x-ratelimit-remaining\"]},\"_p_headers.x-ratelimit-reset\":{\"ret_value\":\"text\",\"caption\":\"headers x-ratelimit-reset\",\"path\":[\"headers\",\"x-ratelimit-reset\"]},\"_p_headers.via\":{\"ret_value\":\"text\",\"caption\":\"headers via\",\"path\":[\"headers\",\"via\"]},\"_p_headers.alt-svc\":{\"ret_value\":\"text\",\"caption\":\"headers alt-svc\",\"path\":[\"headers\",\"alt-svc\"]},\"_p_headers.expect-ct\":{\"ret_value\":\"text\",\"caption\":\"headers expect-ct\",\"path\":[\"headers\",\"expect-ct\"]},\"_p_headers.server\":{\"ret_value\":\"text\",\"caption\":\"headers server\",\"path\":[\"headers\",\"server\"]},\"_p_headers.cf-ray\":{\"ret_value\":\"text\",\"caption\":\"headers cf-ray\",\"path\":[\"headers\",\"cf-ray\"]}}}}",
+            "url": "[webhook.url]",
+            "url_params": {
+                "AEm": {
                     "key": "webhook.url",
                     "private": true,
                     "value": ""

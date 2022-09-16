@@ -10,7 +10,7 @@
     "image": "//s3.amazonaws.com/appforest_uf/f1521908680973x623318943660706300/Discord-Logo-Black.svg",
     "instructions": "go to https://discordapp.com/developers/applications/me and create your App and credentials. Add them to the plugin settings and then use the login/signup action in a workflow to log in via discord. Can also use the \"Get Users\" API call to save user info to Bubble.",
     "license": "open_source",
-    "link": "https://discord.ggTxByM9U",
-    "name": "Discord API",
+    "link": "https://discord.com/developers/docs/intro",
+    "name": "Discord API (OUTDATED)",
     "plugin_instructions": ""
 }
