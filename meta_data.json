@@ -11,6 +11,7 @@
     "instructions": "go to https://discordapp.com/developers/applications/me and create your App and credentials. Add them to the plugin settings and then use the login/signup action in a workflow to log in via discord. Can also use the \"Get Users\" API call to save user info to Bubble.",
     "license": "open_source",
     "link": "https://discord.com/developers/docs/intro",
-    "name": "Discord API (OUTDATED)",
-    "plugin_instructions": ""
+    "name": "Discord API (Updated)",
+    "plugin_instructions": "",
+    "sa_node_version": 18
 }
